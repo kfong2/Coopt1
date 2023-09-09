@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Coopt1</string>
+    <string name="speak">Speak</string>
+    <string name="a_texttospeech_instance_can_only_be_used_to_synthesize_text_once_it_has_completed_its_initialization">A TextToSpeech instance can only be used to synthesize text once it has completed its initialization.</string>
+    <string name="text_to_speech">Text To Speech</string>
 </resources>
