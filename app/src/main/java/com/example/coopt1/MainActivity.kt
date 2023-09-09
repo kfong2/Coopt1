@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() , OnInitListener {
         textToSpeak = findViewById(R.id.textToSpeak) // refers to the TextView with id "textToSpeak"
         speakButton = findViewById(R.id.speakButton)
 
+        // Set the speech rate(0.7)
+        val speechRate = 0.7f
+        textToSpeech.setSpeechRate(speechRate)
+
         speakButton.setOnClickListener {
             val text = textToSpeak.text.toString() // Get text from TextView with id "textToSpeak"
             if (text.isNotEmpty()) {
