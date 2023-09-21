@@ -6,17 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/textToSpeak"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="@string/a_texttospeech_instance_can_only_be_used_to_synthesize_text_once_it_has_completed_its_initialization"
+        android:layout_width="358dp"
+        android:layout_height="108dp"
+        android:hint="Enter text here"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/speakButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/speakButton"
