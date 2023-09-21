@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() , OnInitListener {
     // override of the onInit method from the TextToSpeech.OnInitListener
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
+            // Set language as English
             val result = textToSpeech.setLanguage(Locale.US)
 
             // the language data is missing OR not supported
